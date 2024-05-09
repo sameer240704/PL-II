@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content=" initial-scale=1.0" />
+    <title>Profile Page</title>
+    <style>
+      * {
+        color: #176b87;
+        font-size: 1.3rem;
+        margin: 0;
+      }
+
+      img {
+        width: 16vh;
+        height: 16vh;
+        padding: 0;
+        border-radius: 20px;
+      }
+
+      .nav-bar {
+        display: flex;
+        align-items: space-between;
+        justify-content: space-between;
+        padding: 30px;
+        background-color: #eef5ff;
+        position: sticky;
+        top: 0;
+        h2,
+        li {
+          cursor: pointer;
+        }
+        li:hover {
+          color: #b4d4ff;
+        }
+      }
+
+      .nav-bar ul {
+        display: flex;
+        align-items: center;
+      }
+
+      .nav-bar li {
+        list-style-type: none;
+        padding: 0 30px;
+      }
+
+      .home {
+        background-color: #eef5ff;
+        z-index: -1;
+        height: 60vh;
+        padding-top: 30vh;
+        position: relative;
+        .content {
+          padding-top: 20px;
+          text-align: center;
+        }
+      }
+
+      .cloud {
+        position: absolute;
+        mix-blend-mode: color-burn;
+        .cl {
+          padding: 150px;
+        }
+      }
+
+      .cloud:nth-child(odd) {
+        top: 20px;
+        right: 100px;
+      }
+
+      .cloud:nth-child(even) {
+        top: 300px;
+        left: 100px;
+      }
+
+      .photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+          padding: 60px 0;
+        }
+      }
+
+      .education {
+        z-index: -1;
+        height: 60vh;
+        padding-top: 30vh;
+        text-align: center;
+        li {
+          list-style: none;
+        }
+
+        a {
+          text-decoration: none;
+        }
+        a:hover {
+          color: #b4d4ff;
+        }
+        ul {
+          padding-top: 20px;
+        }
+      }
+
+      .skills {
+        background-color: #eef5ff;
+        z-index: -1;
+        height: 60vh;
+        padding-top: 30vh;
+        text-align: center;
+
+        table {
+          padding-top: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      .course {
+        z-index: -1;
+        height: 60vh;
+        padding-top: 30vh;
+        text-align: center;
+        li {
+          list-style: none;
+        }
+        ol {
+          padding-top: 20px;
+        }
+      }
+
+      .footer {
+        background-color: #eef5ff;
+        z-index: -1;
+        height: 35vh;
+        padding-top: 10vh;
+        text-align: center;
+        .info {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 10vh;
+        }
+        a {
+          text-decoration: none;
+          cursor: pointer;
+        }
+        a:hover {
+          color: #b4d4ff;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <h2>Profile Page</h2>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+
+    <div class="home">
+      <div class="photo">
+        <img
+          src="https://www.flaticon.com/free-icon/pancakes_8932723?term=pancake&page=1&position=3&origin=search&related_id=8932723"
+          alt="Parth's profile picture"
+        />
+        <h1>Parth Gala</h1>
+      </div>
+      <div class="content">
+        <p>I am 19 years old.</p>
+        <p>
+          I am currently learning Web development and learning Artificial
+          Intelligence.
+        </p>
+      </div>
+    </div>
+
+    <div class="education">
+      <h2>Educations</h2>
+      <ul>
+        <li>Pre-primary: Kindergarden School</li>
+        <li>
+          Primary:
+          <a href="https://www.singhaniaschool.org"
+            >Smt. Sulochanadevi Singhania School</a
+          >
+        </li>
+        <li>
+          Secondary:
+          <a href="http://www.pacejuniorsciencecollege.com"
+            >Pace Junior Science College</a
+          >
+        </li>
+        <li>
+          Degree:
+          <a href="https://www.djsce.ac.in/"
+            >Dwarkadas J. Sanghvi College of Engineering</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="skills">
+      <h2>Skills</h2>
+      <table>
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td>Coding</td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Gaming</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table>
+              <tr>
+                <td>Drawing</td>
+                <td>⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Thinking</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="course">
+      <h2>My Courses</h2>
+      <ol>
+        <li>Artificial Intelligence and Data Science</li>
+        <li>Full Stack Web Development</li>
+        <li>Machine Learning</li>
+      </ol>
+    </div>
+
+    <div class="footer">
+      <h2>Contact Information</h2>
+      <div class="info">
+        <p>
+          Email:
+          <a
+            href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCBBXfcFStFLbsVkZxqLhZVMlTlDfzCGrpCZzkwvgtwzcTdwWHZcqllsVrjMNLJmHZGwjV"
+            target="_blank"
+            >parth.gala1356@gmail.com</a
+          >
+        </p>
+        <p>
+          Phone:
+          <a href="https://wa.me/9137937605" target="_blank">9137937605</a>
+        </p>
+        <p>Address: <a href="#" target="_blank">Somewhere</a></p>
+        <p>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/parth-gala-6b3926215/"
+            target="_blank"
+            >Parth Gala</a
+          >
+        </p>
+        <p>
+          Instagram:
+          <a href="https://www.instagram.com/" target="_blank">@p_gala9310</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
