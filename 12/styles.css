@@ -1,0 +1,46 @@
+/* Custom Styles */
+#hero {
+  background-image: url("https://picsum.photos/1500/300.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #333;
+}
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+#services .card {
+  height: 100%;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+#services .card-title {
+  font-size: 1.5rem;
+}
+
+#appointments {
+  background-image: url("https://picsum.photos/1500/300.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+#blog .card {
+  transition: transform 0.3s;
+}
+
+#blog .card:hover {
+  transform: translateY(-10px);
+}
+
+#contact .card {
+  height: 100%;
+}
+
+#contact .card-title {
+  font-size: 1.5rem;
+}
