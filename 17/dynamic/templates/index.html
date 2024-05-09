@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+    <style>
+      * {
+        background-color: #1e1e1e;
+      }
+
+      .bulb-photo {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      button {
+        background-color: aliceblue;
+        padding: 20px 70px;
+        border: none;
+        border-radius: 20px;
+      }
+
+      .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hidden {
+        opacity: 0;
+      }
+
+      #image {
+        width: 20vh;
+        height: 20vh;
+        border-radius: 50%;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      p {
+        background-color: transparent;
+        color: #504cff;
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 10px;
+      }
+
+      h1 {
+        color: #854cff;
+        font-family: "Roboto", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 500;
+      }
+
+      .header {
+        color: #854cff;
+        font-size: 2rem;
+        font-family: "Roboto", sans-serif;
+      }
+
+      span {
+        color: white;
+        font-size: 1.5rem;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bulb-photo">
+      <p class="header">Data Accessed from the views.py File</p>
+      <div id="image">
+        <p>Content: {{content}}</p>
+      </div>
+      <div>
+        <h1>Languages used are:</h1>
+        {% for i in language %}
+        <span>{{i}}</span>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="button"></div>
+  </body>
+</html>
