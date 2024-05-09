@@ -1,0 +1,39 @@
+1. Design Personal Portfolio using HTML & CSS. Showcase your work, skills, and experience with a personal portfolio website designed using HTML and CSS
+
+2. Design Personal Portfolio using HTML & Bootstrap. Showcase your work, skills, and experience with a personal portfolio website designed using HTML and CSS
+
+3. Design website for your college using HTML & Bootstrap. Website with course listings, lesson pages, quizzes, progress tracking, and user profiles.
+
+4. Develop news websites with article previews, featured stories, categories, search functionality Using HTML & Bootstrap.
+
+5. Build blogging platforms with HTML and CSS, including article pages, author profiles, comment sections etc.
+
+6. Build blogging platforms with HTML and Bootstrap, including article pages, author profiles, comment sections etc.
+
+7. Create real estate websites with property listings, search filters, photo galleries, property details, and contact forms
+
+8. Develop restaurant websites with menus, online reservations, location maps, customer reviews, and photo galleries of dishes
+
+9. Create websites for health and wellness professionals, including services offered, appointment scheduling, blog posts etc. Use HTML & CSS
+
+10. Develop event websites for conferences, festivals, or workshops with event schedules, speaker profiles, registration forms, and location maps.
+
+11. Develop event websites for conferences, festivals, or workshops with event schedules, speaker profiles, registration forms, and location maps.
+
+12. Create websites for health and wellness professionals, including services offered, appointment scheduling, blog posts etc. Use HTML & CSS/Bootstrap
+
+13. Develop an interactive quiz application with multiple-choice questions, where users can select answers and receive immediate feedback on their responses, along with a score calculation.
+
+14. Design an interactive web application to design calculator with basic arithmetic operations (addition, subtraction, multiplication, division)
+
+15. Develop an interactive Feedback form with multiple-choice questions, where users can submit feedback and on their responses it shall display user submitted feedback
+
+16. Design Personal Portfolio using HTML & CSS. Showcase your work, skills, and experience with a personal portfolio website designed using HTML and CSS & deploy on Django
+
+17. Render a dynamic HTML page using Django templates. Pass some data from the view to the template to make it dynamic.
+
+18. Integrate Django's ORM (Object-Relational Mapping) to fetch data from a database (Create Database to store Records of 5 Students with assuming suitable data w.r.t student) and display it on your HTML pages.
+
+19. Design Personal Portfolio using HTML & CSS. Use JavaScript to manipulate the DOM elements (For example, you could change the text content of a paragraph or modify the styling of an element.)
+
+20. Implement client-side form validation using JavaScript. Validate form (Create registration form to register for any college even) fields as the user inputs and show the registration details in response once user will register successfully.
