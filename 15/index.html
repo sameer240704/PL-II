@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="feedback-form">
+      <h2>Feedback Form</h2>
+      <form id="feedbackForm">
+        <div class="question">
+          <label for="question1">How satisfied are you with our service?</label>
+          <select id="question1" name="satisfaction">
+            <option value="Very satisfied">Very satisfied</option>
+            <option value="Satisfied">Satisfied</option>
+            <option value="Neutral">Neutral</option>
+            <option value="Dissatisfied">Dissatisfied</option>
+            <option value="Very dissatisfied">Very dissatisfied</option>
+          </select>
+        </div>
+        <div class="question">
+          <label for="question2"
+            >How likely are you to recommend us to a friend?</label
+          >
+          <select id="question2" name="recommendation">
+            <option value="Very likely">Very likely</option>
+            <option value="Likely">Likely</option>
+            <option value="Neutral">Neutral</option>
+            <option value="Unlikely">Unlikely</option>
+            <option value="Very unlikely">Very unlikely</option>
+          </select>
+        </div>
+        <div class="question">
+          <label for="question3">What can we improve?</label>
+          <textarea id="question3" name="improvement" rows="4"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="feedbackOutput"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

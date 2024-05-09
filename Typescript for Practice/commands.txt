@@ -1,0 +1,11 @@
+For compiling your ts file to js use the command for live reload: tsc filename.ts -w
+
+I have created two directories. The src directory is used for storing your html, css and js files. Your build directory is used to store all the ts files which will be compiled to js files later on
+
+Now create a tsc config file by giving the command: tsc --init
+
+In tsconfig.json, do the following changes (these things are already present in tsconfig.json, you just need to modify it):
+1. rootDir: "./foldername_where_ts_files_are_stored"
+2. outDir: "./foldername_where_js_files_will_be_stored"
+3. To avoid ts files only from src dir, at the end of file, add: "include": ["src"]
+4. If you do not want you ts file to compile if there are any errors then do: "noEmitOnError": true
