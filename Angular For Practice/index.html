@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Angular Code</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    </head>
+    <body ng-app="myapp">//ng-app is a directive that defines the root element of an AngularJS application
+        <div ng-controller="myController" >//ng-controller is a directive that defines the application controller.
+            <p>Enter Name: <input type="text" value="" placeholder="Name..." ng-model="name"> </p>
+            <p>Hello! {{helloTo.title}}. This is {{name}} </p>
+        </div>
+        <script> 
+            //Defining the module
+            angular.module("myapp", []) 
+            //Defining the controller
+            .controller("myController", function($scope) { 
+               $scope.helloTo = {}; //Model 
+               $scope.helloTo.title = "AngularJS"; //Model
+            }); 
+         </script> 
+    </body>
+</html>
