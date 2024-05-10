@@ -54,6 +54,7 @@ button:hover {
 
 .selected {
   background: #717171;
+
   &:hover {
     background: #717171;
   }
@@ -66,6 +67,7 @@ button:hover {
   font-size: 16px;
   background: transparent;
   border: 2px solid #0e346a;
+
   &:hover {
     background-color: #0e346a;
     color: #fff;
