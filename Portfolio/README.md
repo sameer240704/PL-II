@@ -22,7 +22,7 @@ Using git clone "link" clone it to your local folder.
 
     II. PL\Practice\Portfolio> cd .\portfolio\
 
-    III. PL\Practice\Portfolio\portfolio> django startapp portfolioApp
+    III. PL\Practice\Portfolio\portfolio> django-admin startapp portfolioApp
 
     IV. PL\Practice\Portfolio\portfolio> mkdir templates
 
